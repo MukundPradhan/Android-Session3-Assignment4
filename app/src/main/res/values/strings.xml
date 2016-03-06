@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android-Session3-Assignment4</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtPassword">Password</string>
+    <string name="Login">LOGIN</string>
+    <string name="textNotAMember">Not a member? Sign up now .</string>
+</resources>
