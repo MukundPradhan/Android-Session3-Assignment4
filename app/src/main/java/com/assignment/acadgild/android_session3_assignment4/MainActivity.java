@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        if (txtEmail.getText().equals("mukund@gmail.com") || txtPW.getText().equals("mukund")) {
+                        if (txtEmail.getText().toString().equals("mukund@gmail.com") && txtPW.getText().toString().equals("mukund")) {
                             Toast.makeText(MainActivity.this, "Login Successfully" , Toast.LENGTH_SHORT).show();
                         } else {
                             Toast.makeText(MainActivity.this, "Login Un-Successfully" + txtEmail.getText().toString() + " --- " + txtPW.getText().toString(), Toast.LENGTH_SHORT).show();
